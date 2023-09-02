@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location Details</title>
+    <style>
+        #imagesContainer{
+            display: flex;
+            gap: 10px 20px;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Search any location (city , country or a place)</h2>
+    <input type="text" id="locationInput" placeholder="Type a location...">
+    <h4 style="display: none;" id="heading">Relevant Images & Weather Details</h4>
+    <div id="weatherContainer"></div>
+    <div id="imagesContainer"></div>
+    <script src="app.js"></script>
+</body>
+</html>
