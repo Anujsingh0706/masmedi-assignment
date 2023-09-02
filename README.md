@@ -9,10 +9,14 @@ This web application allows users to enter the name of a location (city, country
 Technologies Used
 
 HTML5: For structuring the web page.
+
 CSS3: For styling purposes.
+
 Vanilla JavaScript: For handling API requests and DOM manipulations.
+
 
 APIs Used
 
 Unsplash API: For fetching relevant images of the location.
+
 OpenWeatherMap API: For fetching the weather details of the location.
